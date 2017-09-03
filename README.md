@@ -35,7 +35,6 @@
 - calcAfter
 - calcBefore
 
-## todo
+## license
 
-- eslint
-- code climate, bithound 进行代码质量分析
+MIT
