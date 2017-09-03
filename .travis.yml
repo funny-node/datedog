@@ -1,11 +1,18 @@
+branches:
+  only:
+    - master
+
 language: node_js
 
 node_js:
- - '8.0'
- - '8.1' 
+  - stable
+  - '8.0'
 
 install:
   - npm install
 
 script:
   - npm test
+
+after_success:
+  - npm run codecov
