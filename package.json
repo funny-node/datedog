@@ -18,9 +18,7 @@
     "should": "^12.0.0"
   },
   "scripts": {
-    "test": "mocha",
-    "cover": "istanbul cover _mocha --reporter lcovonly -- -R spec",
-    "codecov": "npm run cover && codecov"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
