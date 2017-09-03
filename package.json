@@ -18,7 +18,8 @@
     "should": "^12.0.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "codecov": "istanbul cover node_modules/mocha/bin/_mocha && codecov"
   },
   "repository": {
     "type": "git",
