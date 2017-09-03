@@ -4,7 +4,6 @@ node_js:
  - '8.0'
  - '8.1'
 
-script: npm test
+install: npm install
 
-after_script:
-  - npm run coveralls
+script: npm test
