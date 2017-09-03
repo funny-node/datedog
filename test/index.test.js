@@ -6,17 +6,17 @@ const datedog = rewire('../lib/index')
 const should = require('should')
 
 describe('测试时间间隔', () => {
-  // it('2017-09-01 和 2017-09-02 间隔 1 天', () => {
-  //   datedog.calcDateInterval('2017-09-01', '2017-09-02').should.equal(1)
-  // })
+  it('2017-09-01 和 2017-09-02 间隔 1 天', () => {
+    datedog.calcDateInterval('2017-09-01', '2017-09-02').should.equal(1)
+  })
 
-  // it('2014-06-28 和 2017-09-01 间隔 1161 天', () => {
-  //   datedog.calcDateInterval('2014-06-28', '2017-09-01').should.equal(1161)
-  // })
+  it('2014-06-28 和 2017-09-01 间隔 1161 天', () => {
+    datedog.calcDateInterval('2014-06-28', '2017-09-01').should.equal(1161)
+  })
 
-  // it('2017-09-02 和 2014-06-29 间隔 1161 天', () => {
-  //   datedog.calcDateInterval('2017-09-02', '2014-06-29').should.equal(1161)
-  // })
+  it('2017-09-02 和 2014-06-29 间隔 1161 天', () => {
+    datedog.calcDateInterval('2017-09-02', '2014-06-29').should.equal(1161)
+  })
 })
 
 describe('测试某一日期 xx 天前的日期', () => {
