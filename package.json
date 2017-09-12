@@ -2,7 +2,7 @@
   "name": "datedog",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/index.js", // npm install 后通过 require('xxx') 后实际引用的文件
+  "main": "./lib/index.js", 
   "bin": {
     "datedog": "./bin/cli.js"
   },
@@ -17,8 +17,8 @@
     "should": "^12.0.0"
   },
   "scripts": {
-    "test": "mocha", // 实际执行的是 node_modules/.bin/mocha
-    "codecov": "istanbul cover _mocha && codecov" // _macha 和 codecov 实际均执行的是 node_modules/.bin/ 目录下的文件
+    "test": "mocha",
+    "codecov": "istanbul cover _mocha && codecov" 
   },
   "repository": {
     "type": "git",
