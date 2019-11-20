@@ -1,5 +1,8 @@
 # datedog 
 
+a tiny library to calculate the days of two certain dates or find the date some days before / after a certain date 
+
+
 [![Build Status](https://travis-ci.org/hanzichi/datedog.svg?branch=master)](https://travis-ci.org/hanzichi/datedog)
 [![codecov](https://codecov.io/gh/hanzichi/datedog/branch/master/graph/badge.svg)](https://codecov.io/gh/hanzichi/datedog)
 [![npm](https://img.shields.io/npm/v/datedog.svg?style=flat)](https://www.npmjs.com/package/datedog)
